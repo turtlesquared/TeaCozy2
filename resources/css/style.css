@@ -7,3 +7,73 @@ body {
 	text-align: center;
 	margin-top: 0px;
 }
+
+header {
+	position: fixed;
+	z-index: 1;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+}
+
+.logo {
+	display: flex;
+	margin-top: 10px;
+	margin-left: 10px;
+	align-items: left;
+}
+
+.logo img {
+	justify-content: space-around;
+	height: 50px;
+}
+
+header nav {
+	display: inline-block;
+	align-content: right;
+	padding-top: 21px;
+}
+
+nav span {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: auto;
+}
+
+#mission {
+	background-image: url(../images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.statement {
+	width: 1200px;
+	background-color: black;
+}
+
+.tea_types {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	justify-content: center;
+}
+
+.tea_types img {
+	height: 200px;
+	margin: 10px;
+	display: block;
+}
