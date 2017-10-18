@@ -1,15 +1,15 @@
 * {
-	color: seashell;	
+	font-family: "Helvetica", sans-serif;
+	color: seashell;
 }
 
 body {
-	font-family: Helvetica;
 	font-size: 22px;
-
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
 	margin: 0;
+
 }
 
 header {
@@ -77,10 +77,6 @@ nav span {
 	background-color: black;
 }
 
-#featured {
-	
-}
-
 .tea_types {
 	display: flex;
 	flex-wrap: wrap;
@@ -91,11 +87,12 @@ nav span {
 .tea_types img {
 	height: 200px;
 	width: 300px;
-	margin-left: 10px;
-	margin-right: 20px;
+	margin-left: 15px;
+	margin-right: 18px;
 	display: block;
 }
 
 .tea_types h4 {
 	margin-top: 10px;
 }
+
