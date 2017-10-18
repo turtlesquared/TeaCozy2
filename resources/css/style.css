@@ -90,6 +90,12 @@ nav span {
 
 .tea_types img {
 	height: 200px;
-	margin: 10px;
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 20px;
 	display: block;
+}
+
+.tea_types h4 {
+	margin-top: 10px;
 }
