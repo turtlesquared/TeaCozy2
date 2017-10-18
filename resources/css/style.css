@@ -48,10 +48,6 @@ nav span {
 	height: 50px;
 }
 
-
-
-
-
 .main {
 	display: flex;
 	flex-direction: column;
@@ -96,3 +92,22 @@ nav span {
 	margin-top: 10px;
 }
 
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	padding-bottom: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact {
+	height: 200px;
+}
+
+footer {
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
