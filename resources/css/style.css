@@ -4,6 +4,8 @@
 	font-weight: bold;
 }
 
+/* Need to make sure I comment on the CSS too! */
+
 body {
 	font-size: 22px;
 	background-color: black;
@@ -14,7 +16,7 @@ body {
 
 header {
 	position: fixed;
-	z-index: 5;
+	z-index: 5;`
 	height: 69px;
 	width: 100%;
 	background-color: black;
@@ -127,6 +129,7 @@ nav a {
 
 #contact {
 	height: 200px;
+	width: 1200px;
 }
 
 footer {
